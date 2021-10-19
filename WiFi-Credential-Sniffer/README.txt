@@ -12,7 +12,6 @@ Before using this, first create the following -
 
 #5. In the code section, paste the following code, save it, run the code : 
 
-```
 function doGet(e) {
     //Displays the text on the webpage.
     return ContentService.createTextOutput("This is a GET Request!");
@@ -29,7 +28,6 @@ function doPost(e) {
     body.second
     ])
 }
-```
 
 #6. Go to "Deploy" and then click on "New Deployment".
 
